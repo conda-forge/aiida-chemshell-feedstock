@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: aiida-chemshell
-  version: "0.3.1"
+  version: "0.3.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace("-", "_") }}-${{ version }}.tar.gz
-  sha256: 5172f5b72cc420ad2237929d0f7e53f44ad8d6ca2b68d219a9546326b8de9877
+  sha256: ac1c401a19003ea1dc587ddf08cecb837ad960516e111f120cc2c639ca6cac6c
 
 build:
   noarch: python
