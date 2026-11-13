@@ -25,6 +25,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - aiida-core >=2.5
+    - ase >= 3.29
 
 tests:
   - python:
